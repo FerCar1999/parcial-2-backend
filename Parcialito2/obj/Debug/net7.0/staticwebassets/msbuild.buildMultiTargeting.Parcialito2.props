@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Parcialito2.props" />
+</Project>
