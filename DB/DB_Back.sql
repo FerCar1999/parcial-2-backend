@@ -58,3 +58,12 @@ INSERT INTO elecciones_2019 (departamento, candidato, votos) VALUES
 ('La Paz', 'Otros', 26421);
 
 SELECT * FROM elecciones_2019;
+CREATE VIEW Vista_ResultadosElecciones AS
+SELECT
+ [candidato],
+ SUM([votos]) AS CantidadDeVotos,
+ CAST(SUM([votos]) * 100.0 / SUM(SUM([votos])) OVER () AS DECIMAL(10, 2)) AS Porcentaje
+FROM
+ elecciones_2019
+GROUP BY
+ [candidato];

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ALaRhAkc9mtLu1f0uezM31eh5iyGXmFff1baJnqSngEy1+r/6WqUOFnyGO/86VvfDa7EcT6hq4o6g8ZaMoRJtQ==",
+  "dgSpecHash": "MflJnak6CaPlv/+5GxgyjSvjOSXMBBryBHowCUb6SwukGSWo8qxqMfZCrP8aaeyUW+IZXIFrPSzXmJp0MzGzeQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\UFG\\source\\repos\\Parcialito2\\Parcialito2\\Parcialito2.csproj",
+  "projectFilePath": "C:\\Users\\UFG\\source\\repos\\parcial-2-backend\\Parcialito2\\Parcialito2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\UFG\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\UFG\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
